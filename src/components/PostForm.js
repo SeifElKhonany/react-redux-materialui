@@ -211,7 +211,7 @@ export default function PostForm() {
         </Button>
         <Snackbar open={success} autoHideDuration={6000} onClose={handleSuccessClose}>
           <Alert onClose={handleSuccessClose} severity="success">
-            This is a success message!
+            Post submitted!
           </Alert>
         </Snackbar>
       </div>
